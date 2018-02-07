@@ -1,0 +1,26 @@
+GIT
+  remote: https://github.com/Branching-Minds/docx.git
+  revision: 1dbb5c2fabe0acd766e396d66fdbfc3bb8de7fa1
+  specs:
+    docx (0.2.07)
+      nokogiri (~> 1.5)
+      rubyzip (~> 1.1.6)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_portile2 (2.3.0)
+    mustache (1.0.5)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
+    rubyzip (1.1.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  docx!
+  mustache
+
+BUNDLED WITH
+   1.16.1
